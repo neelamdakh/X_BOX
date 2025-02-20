@@ -1,0 +1,168 @@
+/* slider start */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+   
+    /* margin: auto; */
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    /* transition: 0.6s ease; */
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+}
+.slide1_mob
+{
+    display: none;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 39%;
+    top: 150px;
+    left: 80px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+.text_slide2
+{
+  
+    left: 750px;
+
+}
+.text_slide2 h1 {
+    color: black;
+}
+.text_slide2 p {
+    color: black;
+}
+.text h4
+{
+    background-color: #F3CE00;
+    color: black;
+    width: 40%;
+    font-size: 14px;
+    text-align: center;
+}
+.text p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.get_it_now
+{
+    background-color: #8BD80A;
+    color: #054B16;
+    border: none;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.join_game
+{
+background-color: transparent;
+color: white;
+border: none;
+padding: 5px 20px;
+font-size: 15px;
+font-weight: 900;
+margin-left: 5px;
+}
+.slide3_heading
+{
+    width: 25% !important;
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
+    top: -50px
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+} 
+
+/* slider end */
+
+
+
+
+/* games menu bar */
+.games_menu_bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+   
+.game_item p{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+.games_menu_bar img{
+    height: 70px;
+}
